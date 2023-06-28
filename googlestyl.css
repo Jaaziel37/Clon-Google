@@ -1,0 +1,250 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 3.75em;
+  position: absolute;
+  top: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav .nav-right-section
+{
+  width: 18.75em;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .nav-right-section li a
+{
+  margin-right: 1em;
+  color: #000;
+}
+
+header nav .nav-right-section .menu-icon a o
+{
+  font-size: 1em;
+}
+
+header nav .nav-right-section li:nth-child(4) section .user
+{
+  position:  relative;
+  width: 1.875em;
+  height: 1.875em;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+header nav .nav-right-section li:nth-child(4) section .user img
+{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+main {
+  margin-top: 7.5em;
+  text-align: center;
+}
+
+main .main-logo
+{
+  width: 35em;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+main .main-logo img
+{
+  width: 17em;
+  height: auto;
+}
+
+
+main .main-input
+{
+  width: 35em;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+main .main-input .main-input-container
+{
+  width: 35em;
+  border: solid 1px #d0d0d7;
+  border-radius: 100px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main .main-input .main-input-container:hover
+{
+  box-shadow: 0 1px 6px 0 #d0d0d7;
+}
+
+main .main-input .main-input-container .busqueda-icon
+{
+  width: 1.25em;
+  margin-left: 0.75em;
+  color: #c1c1c1;
+}
+
+main .main-input .main-input-container input
+{
+  width: 30em;
+  height: 2.5em;
+  border: none;
+  outline: none;
+  margin-left: 0.75em;
+  font-size: 16px;
+}
+
+main .main-boton
+{
+  width: 35em;
+  margin: 0 auto;
+}
+
+main .main-boton div
+{
+  display: inline-block;
+}
+
+main .main-boton div button
+{
+  height: 2.25em;
+  background-color:#f6f6f6f6;
+  border: none;
+  border-radius: 4px;
+  padding: 0px 16px;
+  margin: 0px 4px;
+}
+
+main .main-boton div button:hover
+{
+  border: solid 1px #c1c1c1;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222;
+  background-color: #f8f8f8;
+}
+
+main .main-region
+{
+  margin-top: 1.75em;
+}
+
+footer{
+  width: 100%;
+  height: 2.5em;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #f6f6f6;
+  border-top: 1px solid #c1c1c1;
+}
+
+footer ul{
+  display: flex;
+  list-style: none;
+  margin: 0.75em;
+  padding-left: 0;
+}
+
+footer .footer-izquierda {
+  justify-self: left;
+  margin-left: 2.25em;
+}
+
+footer .footer-derecha
+{
+  justify-self: right;
+  margin-right: 2.25em;
+}
+
+footer ul li a {
+  margin: 0.75em;
+  color: #7f7f7f;
+}
+
+@media (max-width: 1200px) {
+  body{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  body{
+    font-size: 11px;
+  }
+
+  footer{
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #c1c1c1;
+  }
+}
+
+@media (max-width: 768px) {
+  body{
+    font-size: 8px;
+  }
+  main .main-boton
+{
+  width: 40em;
+  margin: 0 auto;
+}
+
+main .main-boton div
+{
+  display: inline-block;
+}
+
+main .main-boton div button
+{
+  height: 1.25em;
+  background-color:#f6f6f6f6;
+  border: none;
+  border-radius: 3px;
+  padding: 0px 14px;
+  margin: 0px 2px;
+}
+
+main .main-boton div button:hover
+{
+  border: solid 1px #c1c1c1;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222;
+  background-color: #f8f8f8;
+}
+  footer{
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #c1c1c1;
+  }
+}
+
+
+
